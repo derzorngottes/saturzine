@@ -6,7 +6,7 @@
 
 // Override the Minima theme's styles with your custom styles
 body {
-  font: 400 16px/1.5 "Garamond", serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font: 400 14px/1.5 "Garamond", serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   background-color: black;
   color: white;
 }
@@ -16,25 +16,42 @@ body {
   margin-left: 45%;
 }
 
-.site-title, .site-title:visited {
+.site-title, .site-title:hover {
   color: #f5f3f3;
   letter-spacing: 2px;
 }
 
-.post-link, .post-meta {
-  font-size: 16px;
-  display: inline;
-  color: #f5f3f3;
+.site-nav, .page-link {
+  color: #c1b9b5 !important;
 }
 
-.site-nav, .page-link, a {
-  color: #f5f3f3;
+.post-meta, .post-link {
+  font: 400 14px/1.5 sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  text-transform: uppercase;
+  display: inline;
+}
+
+.post-meta {
+  color: #d3a760;
+}
+
+.post-link {
+  color: #cbe315;
+}
+
+a {
+  color: #cbe315;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #b0bf1a;
+}
+
+a:hover {
+  color: #e0dcda;
 }
 
 .rss-subscribe {
-  color: #b6ada9;
-}
-
-.post-link:visited, .site-nav:visited, .page-link:visited, a:visited {
   color: #b6ada9;
 }
